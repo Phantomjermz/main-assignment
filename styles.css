@@ -1,0 +1,510 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333; /* Dark gray text */
+    letter-spacing: 0.5px;
+
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    background-image:url(./photos/Cybersecurity-Awareness-Month-Banner-v2.jpg); /* Green header background */
+    color: #fff; /* White text for header */
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    letter-spacing: 1.5px; /* Adjust as needed for section headings */
+}
+
+.logo img {
+    max-width: 150px; /* Adjust as needed */
+    height: auto;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+nav a:hover {
+    color: #ecf0f1; /* Lighter text on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+
+footer {
+    background-image: url(./photos/Cybersecurity-Awareness-Month-Banner-v2.jpg); /* Green footer background */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-info p {
+    margin-bottom: 10px;
+}
+
+
+#hero {
+    text-align: center;
+    padding: 50px 0; /* Adjust as needed */
+    background-color: #f0f0f0; /* Background color for the hero section */
+}
+
+#hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #45a049;
+}
+
+
+#features {
+    padding: 50px 0; /* Adjust as needed */
+    text-align: center;
+    background-color: #e6e6e6; /* Background color for the features section */
+}
+
+#features h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.feature {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.feature img {
+    max-width: 40%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the image's aspect ratio */
+    margin-bottom: 10px; /* Add some space below the image */
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+#testimonials {
+    padding: 50px 0; /* Adjust as needed */
+    text-align: center;
+    background-color: #f9f9f9; /* Background color for the testimonials section */
+}
+
+#testimonials h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.testimonial img {
+    max-width: 80px; /* Adjust as needed */
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.testimonial cite {
+    font-style: normal;
+    font-size: 14px;
+    color: #888;
+}
+
+
+
+
+
+#about {
+    padding: 50px 0; /* Adjust as needed */
+    text-align: center;
+    background-color: #e6e6e6; /* Background color for the about section */
+}
+
+#about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#about ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about ul li {
+    margin-bottom: 10px;
+}
+
+
+#history {
+    padding: 50px 0; /* Adjust as needed */
+    text-align: center;
+    background-color: #f0f0f0; /* Background color for the history section */
+}
+
+#history h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#history p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+#reviews {
+    padding: 50px 0; /* Adjust as needed */
+    text-align: center;
+    background-color: #f9f9f9; /* Background color for the reviews section */
+}
+
+#reviews h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.customer-review {
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.customer-review img {
+    max-width: 80px; /* Adjust as needed */
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.customer-review p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.customer-review cite {
+    font-style: normal;
+    font-size: 14px;
+    color: #888;
+}
+
+
+#product-details {
+    padding: 50px 0; /* Adjust as needed */
+    text-align: center;
+    background-color: #ecf0f1; /* Lighter background for product details */
+}
+
+#product-details h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.product-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-info img {
+    max-width: 400px; /* Adjust as needed */
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+
+.product-description {
+    max-width: 500px; /* Adjust as needed */
+    text-align: left;
+    background-color: #ecf0f1; 
+}
+
+.product-description h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.product-description p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.product-description ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.product-description ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.product-description p.price {
+    font-size: 20px;
+    color: #4CAF50; /* Adjust to your desired color */
+    margin-bottom: 15px;
+}
+
+.product-description button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-description button:hover {
+    background-color: #45a049;
+}
+
+#pricing {
+    padding: 50px 0; /* Adjust as needed */
+    text-align: center;
+    background-color: #f0f0f0; /* Background color for the pricing section */
+}
+
+#pricing h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.pricing-option {
+    max-width: 300px; /* Adjust as needed */
+    margin: 0 auto 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pricing-option h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.pricing-option p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.pricing-option p.price {
+    font-size: 20px;
+    color: #4CAF50; /* Adjust to your desired color */
+    margin-bottom: 15px;
+}
+
+.pricing-option button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pricing-option button:hover {
+    background-color: #45a049;
+}
+
+
+#contact-form {
+    padding: 50px 0; /* Adjust as needed */
+    text-align: center;
+}
+
+#contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#contact-form form {
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto;
+    text-align: left;
+}
+
+#contact-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+#contact-form,
+#contact-info {
+    background-color: #ecf0f1; /* Lighter background for contact sections */
+}
+
+#contact-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #45a049;
+}
+
+#contact-info {
+    padding: 50px 0; /* Adjust as needed */
+    text-align: center;
+}
+
+#contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#contact-info p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contact-info li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+#contact-info a {
+    color: #4CAF50;
+}
+
+#contact-info a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #2ecc71; /* Green buttons */
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #27ae60; /* Darker green on hover */
+}
+
+
+/* Responsive styles for contact form section */
+@media screen and (max-width: 600px) {
+    #contact-form form {
+        max-width: 100%;
+    }
+
+    #contact-form label,
+    #contact-form input,
+    #contact-form textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+/* Responsive styles for contact information section */
+@media screen and (max-width: 600px) {
+    #contact-info ul {
+        padding: 0;
+    }
+
+    #contact-info li {
+        margin-bottom: 15px;
+    }
+}
