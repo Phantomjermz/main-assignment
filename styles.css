@@ -483,6 +483,17 @@ button:hover {
     background-color: #27ae60; /* Darker green on hover */
 }
 
+.centered-image {
+    text-align: center;
+}
+
+.centered-image img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
 
 /* Responsive styles for contact form section */
 @media screen and (max-width: 600px) {
